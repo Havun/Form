@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Coding Dojo Form</title>
+    </head>
+    <body>
+        <h1>My Registration Form</h1>
+        <form>
+            <p>
+                <label for="First_Name">First Name:</label>
+                <input type="text" id="First_Name" name="First_Name">
+            </p>
+            <p>
+                <label for="Last_Name">Last Name:</label>
+                <input type="text" id="Last_Name" name="Last_Name">
+            </p>
+            <p>
+                <label for="Email">Email:</label>
+                <input type="text" id="Email" name="Email">
+            </p>
+            <p>
+                <label for="password">Password:</label>
+                <input type="password" id="Password" name="Password">
+            </p>
+            <p>
+                <label for="pw-confirm">Password Confirmation:</label>
+                <input type="password" id="pw-confirm" name="Password_Confirm">
+            </p>
+            <p>
+                <label for="birthday">Birthdate:</label>
+                <input type="date" id="birthday" name="birthday">
+            </p>
+            <p>
+                <label for="Male">Male:</label>
+                <input type="radio" id="radio" name="gender" value="male">
+                <label for="female">Female:</label>
+                <input type="radio" id="radio" name="gender" value="female">
+                <label for="decline">Decline to say:</label>
+                <input type="radio" id="radio" name="gender" value="decline">
+            </p>
+                <h3>A short desciption of yourself</h3>
+            <p>
+                <textarea name="description" id="description" cols="50" rows="10"></textarea>
+            </p>
+            <p>
+                <h3>Favorite Language?
+                    <select>
+                        <option value="java">Java</option>
+                        <option value="C++">C++</option>
+                        <option value="python">Python</option>
+                        <option value="other">Other</option>
+                    </select>
+            </p>
+            <p>
+                <input type="submit" value="Submit">
+            </p>
+        </form>
+    </body>
+</html>
